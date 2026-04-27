@@ -1,63 +1,127 @@
-<h2>Gallery</h2>
-<div class="gallery">
-    <figure>
-        <img src="images/ceramic-in-piping.jpeg" alt="Ceramic In Piping">
-        <figcaption>Ceramic In Piping</figcaption>
-    </figure>
-    <figure>
-        <img src="images/ceramic-tile.jpeg" alt="Ceramic Tile">
-        <figcaption>Ceramic Tile</figcaption>
-    </figure>
-    <figure>
-        <img src="images/chute-lined-with-tiles.jpeg" alt="Chute Lined With Tiles">
-        <figcaption>Chute Lined With Tiles</figcaption>
-    </figure>
-    <figure>
-        <img src="images/chute-tiled.jpeg" alt="Chute Tiled">
-        <figcaption>Chute Tiled</figcaption>
-    </figure>
-    <figure>
-        <img src="images/cone-tiled.jpg" alt="Cone Tiled">
-        <figcaption>Cone Tiled</figcaption>
-    </figure>
-    <figure>
-        <img src="images/dewatering-screen.jpeg" alt="Dewatering Screen">
-        <figcaption>Dewatering Screen</figcaption>
-    </figure>
-    <figure>
-        <img src="images/elbow-tiled.jpeg" alt="Elbow Tiled">
-        <figcaption>Elbow Tiled</figcaption>
-    </figure>
-    <figure>
-        <img src="images/esco-bucket.jpeg" alt="Esco Bucket">
-        <figcaption>Esco Bucket</figcaption>
-    </figure>
-    <figure>
-        <img src="images/lauders.jpeg" alt="Lauders">
-        <figcaption>Lauders</figcaption>
-    </figure>
-    <figure>
-        <img src="images/person-sandblasting.jpg" alt="Person Sandblasting">
-        <figcaption>Person Sandblasting</figcaption>
-    </figure>
-    <figure>
-        <img src="images/piping.jpeg" alt="Piping">
-        <figcaption>Piping</figcaption>
-    </figure>
-    <figure>
-        <img src="images/pulley-drum-tiled.jpeg" alt="Pulley Drum Tiled">
-        <figcaption>Pulley Drum Tiled</figcaption>
-    </figure>
-    <figure>
-        <img src="images/sandblasting.jpg" alt="Sandblasting">
-        <figcaption>Sandblasting</figcaption>
-    </figure>
-    <figure>
-        <img src="images/wear-plates-ceramic-alumina.jpg" alt="Wear Plates Ceramic Alumina">
-        <figcaption>Wear Plates Ceramic Alumina</figcaption>
-    </figure>
-    <figure>
-        <img src="images/xpc4100.jpeg" alt="XPC4100">
-        <figcaption>XPC4100</figcaption>
-    </figure>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toptech Industrial | Africa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <span>Business Registration: K2018506308</span>
+        </div>
+        <nav>
+            <div class="logo-container">
+                <div class="logo">TOPTECH</div>
+                <div class="slogan">Your trusted surface preperation and ceramic service provider</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" onclick="showPage('home')">Home</a></li>
+                <li><a href="#" onclick="showPage('about')">About Us</a></li>
+                <li><a href="#" onclick="showPage('services')">Services</a></li>
+                <li><a href="#" onclick="showPage('gallery')">Gallery</a></li>
+                <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content-area">
+
+        <section id="home" class="page active">
+            <div class="hero-static">
+                <img src="images/person-sandblasting.jpg" alt="Industrial Maintenance" class="hero-img">
+                <div class="hero-text">
+                    <h1>Toptech Industrial</h1>
+                    <p>Leading Surface Protection & Industrial Tiling Specialist.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="page">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <h3>Excellence in Industrial Maintenance</h3>
+                <p>Toptech Industrial is a specialist provider of high-durability surface preparation and wear-protection solutions. We specialize in **Specialized Sandblasting** and **Industrial Ceramic Tiling**, delivering technical excellence across various demanding environments.</p>
+                
+                <h3>Mobilization & Expertise</h3>
+                <p>We are a highly mobile organization with the technical capacity to deploy teams across **South Africa** and **abroad**. We pride ourselves on being capable of getting **mine-ready within a limited time**. Our site establishment process is engineered to be seamless and problem-free.</p>
+                
+                <h3>A Trusted Industry Partner</h3>
+                <p>Our team has successfully executed complex projects for industry giants, including **Kumba Iron Ore**, **South32**, and **Assmang**.</p>
+                
+                <h3>Safety-First Culture</h3>
+                <p>All our personnel are expertly trained in the latest field safety protocols and best practices. We utilize industry-approved, safe equipment to ensure every job meets the highest standards.</p>
+            </div>
+        </section>
+
+        <section id="services" class="page">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>Specialized Sandblasting</h3>
+                    <p>White-metal surface preparation for mining components and heavy steel structures.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Industrial Ceramic Tiling</h3>
+                    <p>High-alumina tiling for chutes, hoppers, and launders to combat extreme abrasion.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Rapid Mobilization</h3>
+                    <p>Swift site establishment throughout South Africa and international territories.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="page">
+            <h2>Project Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="images/person-sandblasting.jpg" alt="Sandblasting"><div class="caption">Specialized Sandblasting</div></div>
+                <div class="gallery-item"><img src="images/cone-tiled.jpeg" alt="Cone Tiling"><div class="caption">Cone Crusher Tiling</div></div>
+                <div class="gallery-item"><img src="images/chutes.jpg" alt="Chute Lined"><div class="caption">Lined Chutes</div></div>
+                <div class="gallery-item"><img src="images/lauders.jpeg" alt="Lauders"><div class="caption">Ceramic Lauders</div></div>
+                <div class="gallery-item"><img src="images/piping.jpeg" alt="Piping"><div class="caption">Industrial Piping</div></div>
+                <div class="gallery-item"><img src="images/ceramic-in-piping.jpeg" alt="Ceramic Pipe"><div class="caption">Ceramic Pipe Lining</div></div>
+                <div class="gallery-item"><img src="images/elbow-tiled.jpeg" alt="Elbow"><div class="caption">Tiled Pipe Elbows</div></div>
+                <div class="gallery-item"><img src="images/dewatering-screen.jpeg" alt="Dewatering"><div class="caption">Dewatering Screens</div></div>
+                <div class="gallery-item"><img src="images/esco-bucket.jpeg" alt="Esco Bucket"><div class="caption">Esco Bucket Systems</div></div>
+                <div class="gallery-item"><img src="images/ceramic-tile.jpeg" alt="Ceramic Tile"><div class="caption">Ceramic Material</div></div>
+            </div>
+        </section>
+    </section>
+
+    <section id="contact" class="page">
+        <h2>Contact Us</h2>
+        <div class="contact-box">
+            <p><strong>Business Registration:</strong> K2018506308</p>
+            <hr>
+            <p><strong>Lawrence:</strong> <a href="tel:0606157402">060 615 7402</a></p>
+            <p><strong>Richard:</strong> <a href="tel:0632359067">063 235 9067</a></p>
+            <p><strong>Email:</strong> <a href="mailto:lawrencedlamini1977@gmail.com">lawrencedlamini1977@gmail.com</a></p>
+            
+            <button onclick="window.print()" style="margin-top:20px; padding:10px; cursor:pointer;">Print Contact Details</button>
+        </div>
+    </section>
+
+</main> 
+<section id="contact" class="page">
+            <h2>Contact Us</h2>
+            <div class="contact-box">
+                <p><strong>Business Registration:</strong> K2018506308</p>
+                <hr>
+                <p><strong>Lawrence:</strong> <a href="tel:0606157402">060 615 7402</a></p>
+                <p><strong>Richard:</strong> <a href="tel:0632359067">063 235 9067</a></p>
+                <p><strong>Email:</strong> <a href="mailto:jacobsz.gideon66@gmail.com">jacobsz.gideon66@gmail.com</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Toptech Industrial. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
